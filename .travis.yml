@@ -21,7 +21,7 @@ script:
 - python-codacy-coverage -r coverage.xml
 deploy:
   provider: heroku
-  app: traseur98.herokuapp.com
+  app: traseur98
   strategy: git
   api_key:
     secure: KqpupYJvIkipvNmEAb4IsWRgr/WYjkLoPcEVwNpbhBZcIXrwUJjS+wD/H/MfqFoH2HA34BW/txMVxixBPwxBBSWonuiLje0yqK0H+v5bFZAtfFvq5QcX3/4+tM6IcRK80jAKM79C7g0vYzyWk77SpFWUfK5O3gHgx7IV/9UzwbkMwMxnHkUTKedf14/tUq+x5VIXcvljFYBxg8x/wiOSakZ9fm2R3LAF3cEfmqSrOxOISK3720E+kYUQJPn6sJ2xYXvxaUcT5ZhHWkLZjgOIceWzrj9/v9Yrmwhws/tfmcJTN5mb+tBMORnTAqdMtmauWVFOQ4m4UTL+Kbi8pSDIiIN0+QvHXA5agjUlUnjnxaVtFX0AIzclO9DFi83jUaeR2S9MpgIwZeG2axU2LQyl/R7FM52ELbefa8o9De82loikNyYe19Qb5RyrSDcv/xNCcRjE2AHoCF4TAotZ8vziw8ThLP+bEobymQi0XrJUJ/ToQsdpFf6GL9N80Z+zGgu1t7yTIxEHo5qeNekOhhthAuUEmBxjuDaONgT6+WYhxwDLNBd2+b8VtZaekofJSC/LgfGJ4WQZsgJU0GVmzqsZ/D7zs3zF/HsbSwrjJPhMgdYxcYQEvd7g80v022sZMw6fysOSjvEnxJ8i3z9jn2yD4QX386MqNPP5ClUhhTKKAqg=
